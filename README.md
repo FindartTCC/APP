@@ -1,2 +1,2 @@
-# SITE
-Repositório criado para o desenvolvimento do site
+# APP
+Repositório criado para o desenvolvimento da aplicação
