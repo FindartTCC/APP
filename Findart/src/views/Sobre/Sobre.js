@@ -1,13 +1,10 @@
 import React from 'react';
 import {Text, View, ScrollView, TouchableOpacity} from 'react-native';
 import estiloSobre from './estiloSobre';
-
 function Sobre ({navigation}) {
-
     const voltar = () => {
         navigation.goBack();
     }
-
     return (
         <View style={estiloSobre.container}>
             <View style={estiloSobre.borda}>
@@ -26,9 +23,7 @@ function Sobre ({navigation}) {
                 <Text style={estiloSobre.textocorrido}>Vitor Augusto dos Santos Lopes</Text>
                 <Text style={estiloSobre.textocorrido}>Matheus Henrique Secherini</Text>
                 <Text style={estiloSobre.textocorrido}>José Mateus Chavare</Text>
-                </ScrollView>
-                
-                
+                </ScrollView>   
                 <TouchableOpacity style={estiloSobre.botaoContainer} onPress={voltar}>
                     <Text style={estiloSobre.botaoTexto}>Voltar</Text>
                 </TouchableOpacity>
@@ -37,5 +32,4 @@ function Sobre ({navigation}) {
         </View>
     )
 }
-
 export default Sobre;

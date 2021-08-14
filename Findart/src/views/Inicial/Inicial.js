@@ -3,12 +3,9 @@ import {Text, View, TouchableOpacity} from 'react-native';
 import estiloInicial from './estiloInicial';
 
 function Inicial ({ navigation }) {
-
     const abrirColecao = () => {
         navigation.navigate('Colecao')
-    }
-
-    
+    }   
     const abrirSobre = () => {
         navigation.navigate('Sobre')
     }
@@ -25,7 +22,6 @@ function Inicial ({ navigation }) {
                 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirSobre}>
                     <Text style={estiloInicial.botaoTexto}>Sobre</Text>
                 </TouchableOpacity>
-
             </View>
         </View>
     )

@@ -2,12 +2,9 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Perfil from '../../views/Perfil/Perfil';
 import RotasDrawer from '../rotasDrawer/RotasDrawer';
-
 const Tab = createBottomTabNavigator();
-
 const RotasTab = () => {
     return(
-
         <Tab.Navigator
         tabBarOptions={
           {
@@ -28,9 +25,6 @@ const RotasTab = () => {
         }}
         name="Perfil" component={Perfil}/>
       </Tab.Navigator>
-
-
     );
 }
-
 export default RotasTab;
