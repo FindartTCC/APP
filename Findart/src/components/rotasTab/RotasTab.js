@@ -11,9 +11,9 @@ const RotasTab = () => {
         <Tab.Navigator
         tabBarOptions={
           {
-            style: {backgroundColor: '#14417b'},
+            style: {backgroundColor: '#A61F2B'},
             labelStyle: {fontSize: 24},
-            activeTintColor: '#14417b', 
+            activeTintColor: '#A61F2B', 
           }}
        >
         <Tab.Screen 
@@ -21,7 +21,7 @@ const RotasTab = () => {
           headerShown: false,
           
         }}
-        name="Inicial" component={rotasDrawer}/>
+        name="Inicial" component={RotasDrawer}/>
         <Tab.Screen
          options ={{
           headerShown: false,

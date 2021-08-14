@@ -26,6 +26,7 @@ function Login({navigation}) {
     return (
         <View style={estiloLogin.container}>
             <View style ={estiloLogin.borda}>
+            <Text style={estiloLogin.titulo}>Findart</Text>
                 <Text style={estiloLogin.texto}>Login</Text>
                 <TextInput
                     style={estiloLogin.campo}

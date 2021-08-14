@@ -1,23 +1,39 @@
 import { StyleSheet } from "react-native";
 
-const estiloItem = StyleSheet.create({
+const estiloSobre = StyleSheet.create({
     container: {
         flex:1,
         justifyContent: 'center',
         alignItems: 'center',
+        paddingTop: 40,
     },
     borda: {
-        backgroundColor: '#081a31',
+        backgroundColor: '#F2A74B',
         width: '80%',
-        height: '40%',
+        height: '100%',
         borderRadius: 10,
+        
     },
     texto: {
-        fontSize:20,
-        color: '#FFFFFF',
+        fontSize:30,
+        color: '#420000',
         fontWeight: 'bold',
         textAlign: 'center',
         padding: 10
+    },
+    subtitulo: {
+        fontSize:25,
+        color: '#420000',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        padding: 10
+    },
+    textocorrido: {
+        fontSize:20,
+        color: '#420000',
+        textAlign: 'justify',
+        padding: 5,
+
     },
     botaoContainer: {
         marginTop: 20,
@@ -27,8 +43,8 @@ const estiloItem = StyleSheet.create({
         borderRadius: 5,
         height:40,
         borderWidth: 2,
-        borderColor: '#e8f2e9',
-        backgroundColor: '#14417b',
+        borderColor: '#D97941',
+        backgroundColor: '#A61F2B',
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -38,6 +54,7 @@ const estiloItem = StyleSheet.create({
         fontWeight: 'bold'
     },
 
+
 })
 
-export default estiloItem;
+export default estiloSobre;

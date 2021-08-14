@@ -9,21 +9,21 @@ function Inicial ({ navigation }) {
     }
 
     
-    const abrirItem = () => {
-        navigation.navigate('Item')
+    const abrirSobre = () => {
+        navigation.navigate('Sobre')
     }
     return (
         <View style={estiloInicial.container}>
             <View style={estiloInicial.borda}>
 
-                <Text style={estiloInicial.texto}>Inicial</Text>
-
+                <Text style={estiloInicial.texto}>Findart</Text>
+                <Text style={estiloInicial.textocorrido}>Divulgação e comércio no meio artístico</Text>
                 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirColecao}>
                     <Text style={estiloInicial.botaoTexto}>Coleção</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirItem}>
-                    <Text style={estiloInicial.botaoTexto}>Item</Text>
+                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirSobre}>
+                    <Text style={estiloInicial.botaoTexto}>Sobre</Text>
                 </TouchableOpacity>
 
             </View>

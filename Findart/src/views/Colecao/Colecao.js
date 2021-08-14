@@ -12,6 +12,7 @@ function Colecao ({navigation}) {
             <View style={estiloColecao.borda}>
 
                 <Text style={estiloColecao.texto}>Coleção</Text>
+                <Text style={estiloColecao.textocorrido}>Aqui ficará a galeria da pessoa criadora de conteúdo artístico</Text>
 
                 <TouchableOpacity style={estiloColecao.botaoContainer} onPress={voltar}>
                     <Text style={estiloColecao.botaoTexto}>Voltar</Text>

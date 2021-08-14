@@ -7,27 +7,36 @@ const estiloLogin = StyleSheet.create({
         alignItems: 'center',
     },
     borda: {
-        backgroundColor: '#081a31',
+        backgroundColor: '#A61F2B',
         width: '80%',
         height: '230',
         borderRadius: 10,
     },
+    titulo: {
+        fontSize:40,
+        color: '#F2A74B',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        padding: 0,
+        
+    },
     texto: {
-        fontSize:20,
+        fontSize:30,
         color: '#FFFFFF',
         fontWeight: 'bold',
         textAlign: 'center',
         padding: 10
     },
     campo: {
-        backgroundColor: '#dcedff',
+        backgroundColor: '#F2A74B',
         fontSize: 18,
         marginLeft:40,
         marginRight:40,
         marginTop:5,
         borderRadius:5,
         height: 40,
-        paddingLeft: 10
+        paddingLeft: 10,
+        color: "#420000"
     },
     botaoContainer: {
         marginTop: 20,
@@ -37,8 +46,8 @@ const estiloLogin = StyleSheet.create({
         borderRadius: 5,
         height:40,
         borderWidth: 2,
-        borderColor: '#e8f2e9',
-        backgroundColor: '#14417b',
+        borderColor: '#D97941',
+        backgroundColor: '#A61F2B',
         justifyContent: 'center',
         alignItems: 'center',
     },

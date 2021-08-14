@@ -13,6 +13,7 @@ function Perfil ({navigation}) {
             <View style={estiloPerfil.borda}>
 
                 <Text style={estiloPerfil.texto}>Perfil</Text>
+                <Text style={estiloPerfil.textocorrido}>Aqui ficarão as informações sobre a conta criada</Text>
 
                 <TouchableOpacity style={estiloPerfil.botaoContainer} onPress={voltar}>
                     <Text style={estiloPerfil.botaoTexto}>Voltar</Text>
