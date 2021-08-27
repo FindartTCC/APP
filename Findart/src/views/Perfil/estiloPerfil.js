@@ -6,6 +6,9 @@ const estiloPerfil = StyleSheet.create({
         flex:1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#A61F2B',
+        width: '100%',
+        height: '100%'
     },
     borda: {
         backgroundColor: '#F2A74B',

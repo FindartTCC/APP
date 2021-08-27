@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const estiloColecao = StyleSheet.create({
+const estiloExplorar = StyleSheet.create({
     container: {
         flex:1,
         justifyContent: 'center',
@@ -8,9 +8,9 @@ const estiloColecao = StyleSheet.create({
     },
     borda: {
         backgroundColor: '#F2A74B',
-        width: '80%',
-        height: '80%',
-        borderRadius: 10,
+        width: '100%',
+        height: '100%',
+        borderRadius: 0,
     },
     texto: {
         fontSize:30,
@@ -48,4 +48,4 @@ const estiloColecao = StyleSheet.create({
 
 })
 
-export default estiloColecao;
+export default estiloExplorar;

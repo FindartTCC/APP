@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Text, View, TextInput, TouchableOpacity, Alert } from 'react-native';
+import { Text, View, ScrollView, TextInput, TouchableOpacity, Alert } from 'react-native';
 import estiloLogin from './estiloLogin';
 import logo from "../../imgs/logo.png"
 function Login({navigation}) {
@@ -20,9 +20,12 @@ function Login({navigation}) {
     }
     return (
         <View style={estiloLogin.container}>
-            <img className="Logo" src={logo} alt="logo" width="300px"></img>
+            <img className="Logo" src={logo} alt="logo" width="250px"></img>
             <View style ={estiloLogin.borda}>
+            <ScrollView 
             
+            showsVerticalScrollIndicator={false}
+            >
                 <Text style={estiloLogin.texto}>Login</Text>
                 <TextInput
                     style={estiloLogin.campo}
@@ -39,6 +42,7 @@ function Login({navigation}) {
                 <TouchableOpacity style={estiloLogin.botaoContainer} onPress={entrar}>
                     <Text style={estiloLogin.botaoTexto}>Entrar</Text>
                 </TouchableOpacity>
+                </ScrollView>
             </View>
         </View>
     )

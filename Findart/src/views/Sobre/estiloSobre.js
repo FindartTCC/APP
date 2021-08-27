@@ -5,13 +5,16 @@ const estiloSobre = StyleSheet.create({
         flex:1,
         justifyContent: 'center',
         alignItems: 'center',
-        paddingTop: 40,
+        paddingTop: 0,
+        backgroundColor: '#A61F2B',
+        width: '100%',
+        height: '100%'
     },
     borda: {
         backgroundColor: '#F2A74B',
         width: '80%',
         height: '100%',
-        borderRadius: 10,
+        borderRadius: 0,
         
     },
     texto: {
@@ -29,7 +32,7 @@ const estiloSobre = StyleSheet.create({
         padding: 10
     },
     textocorrido: {
-        fontSize:20,
+        fontSize:15,
         color: '#420000',
         textAlign: 'justify',
         padding: 5,
@@ -53,7 +56,9 @@ const estiloSobre = StyleSheet.create({
         color: '#FFFFFF',
         fontWeight: 'bold'
     },
-
+    Scroll: {
+    
+    }
 
 })
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import Inicial from '../../views/Inicial/Inicial';
-import Colecao from '../../views/Colecao/Colecao';
+import Explorar from '../../views/Explorar/Explorar';
 import Sobre from '../../views/Sobre/Sobre';
 import estiloRotasStack from './estiloRotasStack';
 const Stack = createStackNavigator ();
@@ -14,9 +14,9 @@ const RotasPrincipalStack = () => {
           headerShown: false,
           }} />
         <Stack.Screen 
-        name="Colecao" component={Colecao}
+        name="Explorar" component={Explorar}
         options={
-          { cardStyle: estiloRotasStack.screenColecao,
+          { cardStyle: estiloRotasStack.screenExplorar,
             headerShown: false,
           }} />
         <Stack.Screen 

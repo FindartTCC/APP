@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import Login from '../../views/Login/Login';
-import RotasTab from '../rotasTab/RotasTab';
+import RotasDrawer from '../rotasDrawer/RotasDrawer';
 import estiloRotasStack from './estiloRotasStack';
 const Stack = createStackNavigator();
 const RotasLoginStack = () => {
@@ -18,7 +18,7 @@ const RotasLoginStack = () => {
         />
         <Stack.Screen
         name="Inicial"
-        component={RotasTab}
+        component={RotasDrawer}
         options={
           {cardStyle: estiloRotasStack.screenItem,
             headerShown: false,

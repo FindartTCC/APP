@@ -9,8 +9,8 @@ const estiloInicial = StyleSheet.create({
     borda: {
         backgroundColor: '#F2A74B',
         width: '80%',
-        height: '80%',
-        borderRadius: 10,
+        height: '100%',
+        borderRadius: 0,
     },
     texto: {
         fontSize:30,
