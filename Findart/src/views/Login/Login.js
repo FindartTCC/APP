@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Text, View, TextInput, TouchableOpacity, Alert } from 'react-native';
 import estiloLogin from './estiloLogin';
+import logo from "../../imgs/logo.png"
 function Login({navigation}) {
     const [login, setLogin] = useState('');
     const [senha, setSenha] = useState('');
@@ -19,8 +20,9 @@ function Login({navigation}) {
     }
     return (
         <View style={estiloLogin.container}>
+            <img className="Logo" src={logo} alt="logo" width="300px"></img>
             <View style ={estiloLogin.borda}>
-            <Text style={estiloLogin.titulo}>Findart</Text>
+            
                 <Text style={estiloLogin.texto}>Login</Text>
                 <TextInput
                     style={estiloLogin.campo}

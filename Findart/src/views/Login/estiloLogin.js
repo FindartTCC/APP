@@ -56,6 +56,7 @@ const estiloLogin = StyleSheet.create({
         color: '#FFFFFF',
         fontWeight: 'bold'
     },
+    
 
 })
 
