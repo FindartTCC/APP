@@ -11,7 +11,7 @@ const estiloPerfil = StyleSheet.create({
         height: '100%'
     },
     borda: {
-        backgroundColor: '#F2A74B',
+        backgroundColor: '#f5c58e',
         width: '80%',
         height: '80%',
         borderRadius: 10,

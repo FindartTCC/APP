@@ -7,7 +7,7 @@ const estiloInicial = StyleSheet.create({
         alignItems: 'center',
     },
     borda: {
-        backgroundColor: '#F2A74B',
+        backgroundColor: '#f5c58e',
         width: '80%',
         height: '100%',
         borderRadius: 0,
