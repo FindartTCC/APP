@@ -11,6 +11,9 @@ const estiloRotasStack = StyleSheet.create({
       screenExplorar: {
         backgroundColor: "#A61F2B"
       },
+      screenCategorias: {
+        backgroundColor: "#A61F2B"
+      },
       screenSobre: {
         backgroundColor: "#A61F2B"
       },

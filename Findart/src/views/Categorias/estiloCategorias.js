@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const estiloExplorar = StyleSheet.create({
+const estiloCategorias = StyleSheet.create({
     container: {
         flex:1,
         justifyContent: 'center',
@@ -48,4 +48,4 @@ const estiloExplorar = StyleSheet.create({
 
 })
 
-export default estiloExplorar;
+export default estiloCategorias;

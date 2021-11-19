@@ -1,22 +1,22 @@
 import React from 'react';
 import {Text, View, TouchableOpacity} from 'react-native';
-import estiloExplorar from './estiloExplorar';
-function Explorar ({navigation}) {
+import estiloCategorias from './estiloCategorias';
+function Categorias ({navigation}) {
     const voltar = () => {
         navigation.goBack();
     }
     return (
-        <View style={estiloExplorar.container}>
-            <View style={estiloExplorar.borda}>
+        <View style={estiloCategorias.container}>
+            <View style={estiloCategorias.borda}>
 
-                <Text style={estiloExplorar.texto}>Explorar</Text>
-                <Text style={estiloExplorar.textocorrido}>Aqui estarão publicações variadas para encontrar diveros artistas diferentes</Text>
-                <TouchableOpacity style={estiloExplorar.botaoContainer} onPress={voltar}>
-                    <Text style={estiloExplorar.botaoTexto}>Voltar</Text>
+                <Text style={estiloCategorias.texto}>Categorias</Text>
+                <Text style={estiloCategorias.textocorrido}>VAZIO</Text>
+                <TouchableOpacity style={estiloCategorias.botaoContainer} onPress={voltar}>
+                    <Text style={estiloCategorias.botaoTexto}>Voltar</Text>
                 </TouchableOpacity>
 
             </View>
         </View>
     )
 }
-export default Explorar;
+export default Categorias;

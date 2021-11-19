@@ -2,6 +2,7 @@ import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import Perfil from '../../views/Perfil/Perfil';
 import Explorar from '../../views/Explorar/Explorar';
+import Categorias from '../../views/Categorias/Categorias';
 import Sobre from '../../views/Sobre/Sobre';
 import logo from "../../imgs/logo.png"
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -55,6 +56,27 @@ const RotasDrawer = () => {
               )
           }}
         name="Explorar" component ={Explorar}/>
+        <Drawer.Screen
+        options={{
+            title: 'Categorias',
+            headerStyle: {
+                backgroundColor: '#A61F2B',
+              },
+            
+            headerTintColor: '#F2A74B', //LETRA E SIMBOLO
+            headerTitleStyle: {
+              fontWeight: 'bold',
+            },
+            drawerStyle: {
+              backgroundColor: '#A61F2B', //backgroud color da tela drawer
+            },
+            drawerActiveTintColor: '#F2A74B', //letras dos itens do drawer
+            drawerInactiveTintColor: '#F2A74B',
+            drawerIcon: ({color, size}) => (
+                <IconF name="world-o" size={size} color={color} />
+              )
+          }}
+        name="Categorias" component ={Categorias}/>
         <Drawer.Screen options={{
               title: 'Sobre',
               headerStyle: {

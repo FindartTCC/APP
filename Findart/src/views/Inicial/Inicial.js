@@ -6,6 +6,9 @@ function Inicial ({ navigation }) {
     const abrirExplorar = () => {
         navigation.navigate('Explorar')
     }   
+    const abrirCategorias = () => {
+        navigation.navigate('Categorias')
+    }   
     const abrirSobre = () => {
         navigation.navigate('Sobre')
     }
@@ -15,7 +18,7 @@ function Inicial ({ navigation }) {
 
                 <Text style={estiloInicial.texto}>Findart</Text>
                 <Text style={estiloInicial.textocorrido}>Divulgação e comércio no meio artístico</Text>
-                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirExplorar}>
+                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirCategorias}>
                     <Text style={estiloInicial.botaoTexto}>Categorias</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirExplorar}> 
