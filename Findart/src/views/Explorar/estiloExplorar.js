@@ -45,6 +45,9 @@ const estiloExplorar = StyleSheet.create({
         color: '#FFFFFF',
         fontWeight: 'bold'
     },
+    img: {
+        justifyContent:'center'
+    }
 
 })
 

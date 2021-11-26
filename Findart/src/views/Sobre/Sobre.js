@@ -2,6 +2,7 @@ import React from 'react';
 import { Text,RefreshControl, View, ScrollView, TouchableOpacity} from 'react-native';
 import estiloSobre from './estiloSobre';
 import Rafa from "../../imgs/rafael.jpeg"
+
 import Vitor from "../../imgs/vitor.jpeg"
 import Math from "../../imgs/math.jpeg"
 import Jose from "../../imgs/jose.jpeg"

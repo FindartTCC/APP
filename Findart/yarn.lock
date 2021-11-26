@@ -3121,6 +3121,11 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+exo@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/exo/-/exo-0.0.9.tgz#6acd2debff5b9db361f4f6181aa56b823b5ea26a"
+  integrity sha1-as0t6/9bnbNh9PYYGqVrgjteomo=
+
 expand-brackets@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-2.1.4.tgz#b77735e315ce30f6b6eff0f83b04151a22449622"
