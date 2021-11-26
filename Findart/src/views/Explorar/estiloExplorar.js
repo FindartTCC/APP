@@ -6,6 +6,7 @@ const estiloExplorar = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
+    
     borda: {
         backgroundColor: '#f5c58e',
         width: '100%',
@@ -40,13 +41,29 @@ const estiloExplorar = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
+    ContainerNome: {
+        marginTop: 20,
+        marginBottom: 20,
+        marginLeft: 40,
+        marginRight: 40,
+        borderRadius: 0,
+       padding:10,
+        height:40,
+        
+       
+        backgroundColor: '#A61F2B',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
     botaoTexto: {
         fontSize: 18,
         color: '#FFFFFF',
         fontWeight: 'bold'
     },
     img: {
-        justifyContent:'center'
+        justifyContent:'center',
+        height: 300,
+        width: 300
     }
 
 })

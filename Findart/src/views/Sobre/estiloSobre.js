@@ -58,8 +58,12 @@ const estiloSobre = StyleSheet.create({
     },
     Scroll: {
     
-    }
-
+    },
+    img: {
+        justifyContent:'center',
+        height: 300,
+        width: 300
+    },
 })
 
 export default estiloSobre;

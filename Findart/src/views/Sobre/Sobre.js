@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text,RefreshControl, View, ScrollView, TouchableOpacity} from 'react-native';
+import { Text,RefreshControl, View, ScrollView, TouchableOpacity, Image} from 'react-native';
 import estiloSobre from './estiloSobre';
 import Rafa from "../../imgs/rafael.jpeg"
 
@@ -30,14 +30,36 @@ function Sobre ({navigation}) {
                 <Text style={estiloSobre.textocorrido}>Caso seja da vontade, poderá também acessar um campo de compras ou de bate-papo, para adquirir produtos ou eventos artísticos.</Text>
                 <Text style={estiloSobre.subtitulo}>Integrantes</Text>
                 <Text style={estiloSobre.textocorrido}>Rafael Malaman Pfleger</Text>
-                <img  src={Rafa} alt="foto" width='100px' ></img>
+                <View style={estiloSobre.container}>
+                <Image
+                style={estiloSobre.img}
+                source={Rafa}
+                />
+                </View>
                 <Text style={estiloSobre.textocorrido}>Vitor Augusto dos Santos Lopes</Text>
-                <img  src={Vitor} alt="foto" width='100px' ></img>
-                <Text style={estiloSobre.textocorrido}>Matheus Henrique Secherini</Text>
-                <img  src={Math} alt="foto" width='100px' ></img>
-                <Text style={estiloSobre.textocorrido}>José Mateus Chavare</Text>
-                <img  src={Jose} alt="foto" width='100px' ></img>
                 
+                <View style={estiloSobre.container}>
+                <Image
+                style={estiloSobre.img}
+                source={Vitor}
+                />
+                </View>
+                <Text style={estiloSobre.textocorrido}>Matheus Henrique Secherini</Text>
+                
+                <View style={estiloSobre.container}>
+                <Image
+                style={estiloSobre.img}
+                source={Math}
+                />
+                </View>
+                <Text style={estiloSobre.textocorrido}>José Mateus Chavare</Text>
+                
+                <View style={estiloSobre.container}>
+                <Image
+                style={estiloSobre.img}
+                source={Jose}
+                />
+                </View>
                 </ScrollView>   
                 <TouchableOpacity style={estiloSobre.botaoContainer} onPress={voltar}>
                     <Text style={estiloSobre.botaoTexto}>Voltar</Text>
