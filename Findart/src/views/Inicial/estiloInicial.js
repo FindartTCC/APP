@@ -2,9 +2,18 @@ import { StyleSheet } from "react-native";
 
 const estiloInicial = StyleSheet.create({
     container: {
-        flex:1,
+        
         justifyContent: 'center',
         alignItems: 'center',
+        margin: 0,
+        padding: 0,
+        height: '100%'
+    },
+    containerMenu: {
+        
+        
+        alignItems: 'center',
+        
     },
     borda: {
         backgroundColor: '#f5c58e',
@@ -34,6 +43,7 @@ const estiloInicial = StyleSheet.create({
         marginRight: 40,
         borderRadius: 5,
         height:40,
+        width: '80%',
         borderWidth: 2,
         borderColor: '#D97941',
         backgroundColor: '#A61F2B',

@@ -40,7 +40,7 @@ const estiloExplorar = StyleSheet.create({
         borderWidth: 2,
         borderColor: '#D97941',
         backgroundColor: '#A61F2B',
-        justifyContent: 'center',
+        
         alignItems: 'center',
     },
     botao: {
@@ -50,7 +50,6 @@ const estiloExplorar = StyleSheet.create({
         marginRight: 5,
         //borderRadius: 5,
         height:50,
-        
         //borderWidth: 2,
         font: 16,
         //borderColor: '#D97941',
@@ -63,7 +62,7 @@ const estiloExplorar = StyleSheet.create({
         borderRadius: 0,
         padding:10,
         paddingBottom:0 ,
-        height:80,
+        height:100,
         width: '80%',
         backgroundColor: '#A61F2B',
         justifyContent: 'left',
@@ -77,8 +76,8 @@ const estiloExplorar = StyleSheet.create({
         borderRadius: 0,
         padding:0,
         paddingBottom:0 ,
-        marginTop: 50,
-        height:60,
+        marginTop: 45,
+        height:80,
         width: '80%',
         backgroundColor: '#A61F2B',
         justifyContent: 'center',
@@ -110,11 +109,7 @@ const estiloExplorar = StyleSheet.create({
         fontWeight: 'bold',
         textAlignVertical: 'auto'
     },
-    p: {
-        marginBottom: 0,
-        marginTop: 0,
-        padding:0
-    },
+    
     img: {
         justifyContent:'center',
         height: 300,

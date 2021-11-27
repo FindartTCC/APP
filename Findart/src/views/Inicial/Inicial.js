@@ -18,6 +18,7 @@ function Inicial ({ navigation }) {
 
                 <Text style={estiloInicial.texto}>Findart</Text>
                 <Text style={estiloInicial.textocorrido}>Divulgação e comércio no meio artístico</Text>
+                <View style={estiloInicial.containerMenu}>
                 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirCategorias}>
                     <Text style={estiloInicial.botaoTexto}>Categorias</Text>
                 </TouchableOpacity>
@@ -28,7 +29,7 @@ function Inicial ({ navigation }) {
                 <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirSobre}>
                     <Text style={estiloInicial.botaoTexto}>Sobre</Text>
                 </TouchableOpacity>
-
+                </View>
                 
             </View>
         </View>

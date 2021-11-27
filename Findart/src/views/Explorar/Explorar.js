@@ -2,6 +2,8 @@ import React from 'react';
 import {Text, View, TouchableOpacity, Image, ScrollView, TextInput} from 'react-native';
 import estiloExplorar from './estiloExplorar';
 import Exemplo from "../../imgs/emicida.jpg"
+import ExemploP2 from "../../imgs/raf.jpg"
+import Exemplo2 from "../../imgs/jorge.jpg"
 import ExemploP from "../../imgs/emi.jpeg"
 function Explorar ({navigation}) {
     const voltar = () => {
@@ -25,9 +27,7 @@ function Explorar ({navigation}) {
                 source={ExemploP}
                 />
                 
-                <Text style={estiloExplorar.textoNome}><a>Emicida </a><p>Há 5 min</p></Text>
-                
-                    
+                <Text style={estiloExplorar.textoNome}><a>Emicida (Há 5 min) </a><p>Show de ontem em Guarlhos-SP</p></Text>
                 </View>
                 </View>
 
@@ -39,7 +39,10 @@ function Explorar ({navigation}) {
                 </View>
 
                 <View style={estiloExplorar.container}>
+
                 <View style={estiloExplorar.ContainerComenta}>
+                
+
                 <TouchableOpacity style={estiloExplorar.botao} onPress={voltar}>
                     <Text style={estiloExplorar.botaoTexto}>Curtir</Text>
                 </TouchableOpacity><TouchableOpacity style={estiloExplorar.botao} onPress={voltar}>
@@ -62,22 +65,22 @@ function Explorar ({navigation}) {
                     
                     <Image
                 style={estiloExplorar.imgP}
-                source={ExemploP}
+                source={ExemploP2}
                 />
                 
-                <Text style={estiloExplorar.textoNome}><a>Emicida </a><p>Há 5 min</p></Text>
+                <Text style={estiloExplorar.textoNome}>Rafael Malaman(Há 10 hrs)<p>Escultura à venda!!!</p></Text>
                 
-                    
+                
                 </View>
                 </View>
 
                 <View style={estiloExplorar.container}>
                 <Image
                 style={estiloExplorar.img}
-                source={Exemplo}
+                source={Exemplo2}
                 />
                 </View>
-
+                
                 <View style={estiloExplorar.container}>
                 <View style={estiloExplorar.ContainerComenta}>
                 <TouchableOpacity style={estiloExplorar.botao} onPress={voltar}>
@@ -89,8 +92,10 @@ function Explorar ({navigation}) {
                 </TouchableOpacity>
                 
                 </View>
+                
                 </View>
-
+               
+                
 
                 </ScrollView> 
                 <TouchableOpacity style={estiloExplorar.botaoContainer} onPress={voltar}>
