@@ -15,13 +15,7 @@ const estiloPerfil = StyleSheet.create({
         height: '100%',
         borderRadius: 10,
     },
-    texto: {
-        fontSize:30,
-        color: '#420000',
-        fontWeight: 'bold',
-        textAlign: 'center',
-        padding: 10
-    },
+   
     textocorrido: {
         fontSize:20,
         color: '#420000',
@@ -54,7 +48,20 @@ const estiloPerfil = StyleSheet.create({
         fontWeight: 'bold',
         textAlignVertical: 'auto'
     },
-    
+    textoChat: {
+        fontSize: 25,
+        color: '#FFFFFF',
+        fontWeight: 'bold',
+        
+    },
+    texto: {
+        fontSize:20,
+        color: '#FFFFFF',
+        
+        textAlign: 'center',
+        padding: 0
+
+    },
     img: {
         
         height: 300,
@@ -70,11 +77,39 @@ const estiloPerfil = StyleSheet.create({
         height:220,
         width: '100%',
         backgroundColor: '#A61F2B',
-        
-        alignItems: 'left',
+    
+        alignItems: 'center',
         marginLeft:0 ,
-        flexDirection: "row",
+        
         borderRadius: 0
+    },
+    ContainerDesc: {
+        display: 'flex',
+        borderRadius: 0,
+        padding:10,
+        paddingBottom:0 ,
+        height: '200',
+        width: '100%',
+        backgroundColor: '#A61F2B',
+    
+        alignItems: 'center',
+        marginLeft:0 ,
+         
+        borderRadius: 0
+    },
+    ContainerImg: {
+        display: 'flex',
+        
+        padding:10,
+        paddingBottom:0 ,
+        height: '200',
+        width: '100%',
+        backgroundColor: '#f5c58e',
+    
+        alignItems: 'center',
+        marginLeft:0 ,
+         
+        
     },
     imgP: {
     
@@ -85,7 +120,7 @@ const estiloPerfil = StyleSheet.create({
         marginTop: 0,
         paddingBottom:0,
         paddingTop:0,
-        borderRadius: 20
+        borderRadius: 200
     } 
 })
 

@@ -45,7 +45,13 @@ const estiloCategorias = StyleSheet.create({
         color: '#FFFFFF',
         fontWeight: 'bold'
     },
-
+    img: {
+        
+        height: 300,
+        width: '80%',
+        marginTop: 25,
+        borderRadius: 300
+    },
 })
 
 export default estiloCategorias;

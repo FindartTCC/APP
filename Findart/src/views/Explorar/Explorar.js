@@ -1,14 +1,17 @@
 import React from 'react';
 import {Text, View, TouchableOpacity, Image, ScrollView, TextInput} from 'react-native';
 import estiloExplorar from './estiloExplorar';
-import Exemplo from "../../imgs/emicida.jpg"
+import Exemplo from "../../imgs/pu2.jpg"
 import ExemploP2 from "../../imgs/raf.jpg"
 import Exemplo2 from "../../imgs/jorge.jpg"
-import ExemploP from "../../imgs/emi.jpeg"
+import ExemploP from "../../imgs/pu.jpg"
 function Explorar ({navigation}) {
     const voltar = () => {
         navigation.goBack();
     }
+    const abrirPerfil = () => {
+        navigation.navigate('Perfil')
+    } 
     return (
         <View style={estiloExplorar.container}>
             <View style={estiloExplorar.borda}>
@@ -26,9 +29,14 @@ function Explorar ({navigation}) {
                 style={estiloExplorar.imgP}
                 source={ExemploP}
                 />
-                
-                <Text style={estiloExplorar.textoNome}><a>Emicida (Há 5 min) </a><p>Show de ontem em Guarlhos-SP</p></Text>
+                <TouchableOpacity  onPress={abrirPerfil}>
+                <Text style={estiloExplorar.textoNome}><a>Awatxuhu Artesanatos </a></Text>
+                </TouchableOpacity>
                 </View>
+                <View style={estiloExplorar.ContainerNome}>
+                <Text style={estiloExplorar.textoDesc}>Beija-flor de miçangas</Text>
+                </View>
+
                 </View>
 
                 <View style={estiloExplorar.container}>
@@ -68,10 +76,14 @@ function Explorar ({navigation}) {
                 source={ExemploP2}
                 />
                 
-                <Text style={estiloExplorar.textoNome}>Rafael Malaman(Há 10 hrs)<p>Escultura à venda!!!</p></Text>
+                <Text style={estiloExplorar.textoNome}>Rafael Malaman </Text>
                 
                 
                 </View>
+                <View style={estiloExplorar.ContainerNome}>
+                <Text style={estiloExplorar.textoDesc}>Escultura à venda!!!</Text>
+                </View>
+
                 </View>
 
                 <View style={estiloExplorar.container}>

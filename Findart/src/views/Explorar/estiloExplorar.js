@@ -21,7 +21,7 @@ const estiloExplorar = StyleSheet.create({
         textAlign: 'center',
         padding: 10
     },
-   
+    
     textocorrido: {
         fontSize:20,
         color: '#420000',
@@ -60,17 +60,17 @@ const estiloExplorar = StyleSheet.create({
     },
     ContainerNome: {
         display: 'flex',
-        borderRadius: 0,
+        
         padding:10,
         paddingBottom:0 ,
-        height:100,
+        height:80,
         width: '80%',
         backgroundColor: '#A61F2B',
         justifyContent: 'left',
         alignItems: 'left',
         marginLeft:0 ,
         flexDirection: "row",
-        borderRadius: 10
+        borderRadius: 0
     },
     ContainerComenta: {
         display: 'flex',
@@ -110,7 +110,13 @@ const estiloExplorar = StyleSheet.create({
         fontWeight: 'bold',
         textAlignVertical: 'auto'
     },
-    
+    textoDesc: {
+        fontSize: 15,
+        color: '#FFFFFF',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        
+    },
     img: {
         justifyContent:'center',
         height: 300,
@@ -127,8 +133,9 @@ const estiloExplorar = StyleSheet.create({
         marginTop: 0,
         paddingBottom:0,
         paddingTop:0,
-        borderRadius: 10
-    } 
+        borderRadius: 60
+    },
+    
 })
 
 export default estiloExplorar;
