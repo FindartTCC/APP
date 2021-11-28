@@ -4,16 +4,15 @@ const estiloPerfil = StyleSheet.create({
     
     container: {
         flex:1,
-        justifyContent: 'center',
+        
         alignItems: 'center',
-        backgroundColor: '#A61F2B',
-        width: '100%',
-        height: '100%'
+        
+        
     },
     borda: {
         backgroundColor: '#f5c58e',
-        width: '80%',
-        height: '80%',
+        width: '100%',
+        height: '100%',
         borderRadius: 10,
     },
     texto: {
@@ -49,7 +48,45 @@ const estiloPerfil = StyleSheet.create({
         color: '#FFFFFF',
         fontWeight: 'bold'
     },
-
+    textoNome: {
+        fontSize: 30,
+        color: '#FFFFFF',
+        fontWeight: 'bold',
+        textAlignVertical: 'auto'
+    },
+    
+    img: {
+        
+        height: 300,
+        width: '80%',
+        marginTop: 25,
+        
+    },
+    ContainerNome: {
+        display: 'flex',
+        borderRadius: 0,
+        padding:10,
+        paddingBottom:0 ,
+        height:220,
+        width: '100%',
+        backgroundColor: '#A61F2B',
+        
+        alignItems: 'left',
+        marginLeft:0 ,
+        flexDirection: "row",
+        borderRadius: 0
+    },
+    imgP: {
+    
+        height: 200,
+        width: 200,
+        marginRight:20,
+        marginBottom:0,
+        marginTop: 0,
+        paddingBottom:0,
+        paddingTop:0,
+        borderRadius: 20
+    } 
 })
 
 export default estiloPerfil;

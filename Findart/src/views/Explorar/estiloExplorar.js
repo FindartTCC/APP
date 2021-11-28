@@ -40,7 +40,7 @@ const estiloExplorar = StyleSheet.create({
         borderWidth: 2,
         borderColor: '#D97941',
         backgroundColor: '#A61F2B',
-        
+        justifyContent: 'center',
         alignItems: 'center',
     },
     botao: {
@@ -48,12 +48,13 @@ const estiloExplorar = StyleSheet.create({
         marginBottom: 10,
         marginLeft: 5,
         marginRight: 5,
-        //borderRadius: 5,
+        borderRadius: 10,
         height:50,
+        
         //borderWidth: 2,
-        font: 16,
+        font: 12,
         //borderColor: '#D97941',
-        backgroundColor: '#A61F2B',
+        backgroundColor: '#8c1f1f',
         justifyContent: 'center',
         alignItems: 'center',
     },

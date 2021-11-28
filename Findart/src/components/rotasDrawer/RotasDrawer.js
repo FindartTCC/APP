@@ -7,6 +7,7 @@ import Sobre from '../../views/Sobre/Sobre';
 import logo from "../../imgs/logo.png"
 import Icon from 'react-native-vector-icons/FontAwesome';
 import IconF from 'react-native-vector-icons/Fontisto';
+import IconA from 'react-native-vector-icons/AntDesign';
 import RotasPrincipalStack from '../rotasStack/RotasPrincipalStack';
 const Drawer = createDrawerNavigator();
 const RotasDrawer = () => {
@@ -73,7 +74,7 @@ const RotasDrawer = () => {
             drawerActiveTintColor: '#F2A74B', //letras dos itens do drawer
             drawerInactiveTintColor: '#F2A74B',
             drawerIcon: ({color, size}) => (
-                <IconF name="world-o" size={size} color={color} />
+                <IconA name="staro" size={size} color={color} />
               )
           }}
         name="Categorias" component ={Categorias}/>
